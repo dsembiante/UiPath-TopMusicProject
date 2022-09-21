@@ -1,0 +1,63 @@
+{
+  "name": "TopMusicProject",
+  "description": "Gets top 10 songs from Spotify, Youtube, and Amazon and creates powerpoint presentations for each",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Microsoft.Office.Interop.PowerPoint": "[15.0.4420.1017]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.ImageProcessing": "[22.4.0]",
+    "UiPath.Mail.Activities": "[1.15.1]",
+    "UiPath.Presentations.Activities": "[1.3.3]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.UIAutomation.Activities": "[22.4.2-preview]",
+    "UiPath.WebAPI.Activities": "[1.11.0]",
+    "UiPath.Word.Activities": "[1.10.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.0.0",
+  "projectVersion": "1.0.2",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "e1e49d94-211a-47e4-abb4-5b6c7c669c7e",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
